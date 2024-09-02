@@ -6,6 +6,6 @@ resource "aws_instance" "terra-instance-ex" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "terra-instance-example"
+    Name = "terra-instance"
   }
 }
